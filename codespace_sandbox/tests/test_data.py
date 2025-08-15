@@ -1,7 +1,6 @@
 import pytest
 from openai import OpenAI
 
-
 def test_openai():
     client = OpenAI()
     response = client.responses.create(
